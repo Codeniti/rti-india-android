@@ -14,6 +14,8 @@
 
         <TextView
             style="@style/HeaderStyle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:text="@string/from" />
 
         <EditText
@@ -95,12 +97,173 @@
             style="@style/InputFieldStyle"
             android:hint="@string/hint_papin_to" >
         </EditText>
+
         <TextView
             style="@style/HeaderStyle"
             android:text="@string/txt_header_subject" />
+
         <TextView
             style="@style/SubHeaderStyle"
             android:text="@string/txt_subheader_subject" />
+
+        <TextView
+            style="@style/HeaderStyle"
+            android:text="@string/txt_header_brief" />
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/BD" />
+        <EditText
+       android:id="@+id/description"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:ems="10"
+       android:gravity="left|top"
+       android:inputType="textMultiLine" 
+       android:text="@string/txt_oldage_q1">
+ 
+       <requestFocus />
+   </EditText>
+        
+
+        <TextView
+            style="@style/HeaderStyle"
+            android:text="@string/txt_header_questions" />
+
+        <EditText
+            android:id="@+id/q1"
+            style="@style/InputFieldStyle" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/q2"
+            style="@style/InputFieldStyle" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/q3"
+            style="@style/InputFieldStyle" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/q4"
+            style="@style/InputFieldStyle" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/q5"
+            style="@style/InputFieldStyle" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/q6"
+            style="@style/InputFieldStyle" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/q7"
+            style="@style/InputFieldStyle" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/q8"
+            style="@style/InputFieldStyle" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/q9"
+            style="@style/InputFieldStyle" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/q10"
+            style="@style/InputFieldStyle" >
+        </EditText>
+
+        <TextView
+            style="@style/HeaderStyle"
+            android:text="@string/txt_header_period" />
+
+        <EditText
+            android:id="@+id/periodTo"
+            style="@style/InputFieldStyle"
+            android:hint="@string/hint_period" >
+        </EditText>
+
+        <TextView
+            style="@style/HeaderStyle"
+            android:text="@string/txt_header_claims" />
+
+        <RadioGroup
+            android:id="@+id/yn"
+            style="@style/SubHeaderStyle"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/yes"
+                style="@style/SubHeaderStyle"
+                android:layout_weight="1"
+                android:onClick="onRadioButtonClicked"
+                android:text="@string/yes" />
+
+            <RadioButton
+                android:id="@+id/no"
+                style="@style/SubHeaderStyle"
+                android:layout_weight="1"
+                android:onClick="onRadioButtonClicked"
+                android:text="@string/no" />
+        </RadioGroup>
+
+        <TextView
+            style="@style/HeaderStyle"
+            android:text="@string/txt_header_charge" />
+
+        <RadioGroup
+            android:id="@+id/rticharge"
+            style="@style/SubHeaderStyle"
+            android:orientation="vertical" >
+
+            <RadioButton
+                android:id="@+id/cfc"
+                style="@style/SubHeaderStyle"
+                android:layout_weight="1"
+                android:onClick="onRadioButtonClicked"
+                android:text="@string/txt_radio1_charge" />
+
+            <RadioButton
+                android:id="@+id/ipo"
+                style="@style/SubHeaderStyle"
+                android:layout_weight="1"
+                android:onClick="onRadioButtonClicked"
+                android:text="@string/txt_radio2_charge" />
+
+            <RadioButton
+                android:id="@+id/dd"
+                style="@style/SubHeaderStyle"
+                android:layout_weight="1"
+                android:onClick="onRadioButtonClicked"
+                android:text="@string/txt_radio3_charge" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="generate"
+                android:text="@string/generate" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="reset"
+                android:text="@string/reset" />
+        </LinearLayout>
     </LinearLayout>
 
 </ScrollView>

@@ -14,25 +14,25 @@
     <string name="txt_header_claims">Whether the applicant claims exemption as below poverty line</string>
     <string name="txt_header_charge">RTI Application charge</string>
     <string name="hint_name_from">Your name</string>
-  	<string name="hint_state_from">Your state</string>
-      <string name="hint_addressline1_from">Your Address 1</string>
+    <string name="hint_state_from">Your state</string>
+    <string name="hint_addressline1_from">Your Address 1</string>
     <string name="hint_addressline2_from">Your Address 2</string>
     <string name="hint_city_from">Your City</string>
-     <string name="hint_pin_from">Your PIN Code</string>
-     <string name="hint_paoffice_to">Office of Public Authority (PA)</string>
-     <string name="hint_paaddressline1_to">Address 1 of PA</string>
-     <string name="hint_paaddressline2_to">Address 2 of PA</string>
-     <string name="hint_pacity_to">City of PA</string>
-     <string name="hint_pastate_to">State of PA</string>
-     <string name="hint_papin_to">Pincode</string>
-     <string name="txt_subheader_to">Public Information Officer</string>
-     <string name="txt_subheader_subject">Application under Right To Information Act, 2005</string>
-     <string name="txt_radio1_charge">Court Fee Stamp (Tamil Nadu, Kerala, West Bengal)</string>
-     <string name="txt_radio2_charge">Indian Postal Order (To Central Government, Assam, Chandigarh, Delhi, Himachal Pradesh, Karnataka, Uttarakhand, Tripura, Mizoram, Puducherry, Meghalaya, Noida)</string>
-     <string name="txt_radio3_charge">Demand Draft (Andaman and Nicobar, Goa, Jharkhand, Manipur, Nagaland)</string>
-     <string name="yes">Yes</string>
-     <string name="no">No</string>
-	<string name="txt_status_epf">Status of withdrawal of my Employees Provident Fund (EPF) Account</string>
+    <string name="hint_pin_from">Your PIN Code</string>
+    <string name="hint_paoffice_to">Office of Public Authority (PA)</string>
+    <string name="hint_paaddressline1_to">Address 1 of PA</string>
+    <string name="hint_paaddressline2_to">Address 2 of PA</string>
+    <string name="hint_pacity_to">City of PA</string>
+    <string name="hint_pastate_to">State of PA</string>
+    <string name="hint_papin_to">Pincode</string>
+    <string name="txt_subheader_to">Public Information Officer</string>
+    <string name="txt_subheader_subject">Application under Right To Information Act, 2005</string>
+    <string name="txt_radio1_charge">Court Fee Stamp (Tamil Nadu, Kerala, West Bengal)</string>
+    <string name="txt_radio2_charge">Indian Postal Order (To Central Government, Assam, Chandigarh, Delhi, Himachal Pradesh, Karnataka, Uttarakhand, Tripura, Mizoram, Puducherry, Meghalaya, Noida)</string>
+    <string name="txt_radio3_charge">Demand Draft (Andaman and Nicobar, Goa, Jharkhand, Manipur, Nagaland)</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="txt_status_epf">Status of withdrawal of my Employees Provident Fund (EPF) Account</string>
     <string name="txt_status_pending">Status of pending work in any government department on my complaint</string>
     <string name="txt_enquiry_mla">Enquiry on MLA Constituency Development Funds</string>
     <string name="txt_list_streets">Complete list of all streets and road works carried out</string>
@@ -73,7 +73,7 @@
     <string name="txt_list_streets_q9">9. After you have prepared the above information, I would like to inspect your measurement books, Work order registers, Quotations, Contract document, Estimate document and Inspection report related to these works to ensure that you have given the complete information.</string>
     <string name="txt_list_streets_q10">10. Please provide details of First Appellate Authority u/s 7(8) of RTI Act, 2005 with detailed postal and email address.</string>
     <string name="txt_custom">Custom Blank Template</string>
-<string name="txt_status_complaint">Status of all corruption complaints from Central Vigilance Commission</string>
+    <string name="txt_status_complaint">Status of all corruption complaints from Central Vigilance Commission</string>
     <string name="txt_scholar">Details of Scholarships in a School / College</string>
     <string name="txt_ration">Details of Ration Card</string>
     <string name="txt_oldage">Details of Old age/Widow pensions</string>
@@ -110,4 +110,18 @@
     <string name="txt_oldage_q5">5. Provide me the certified copies of Rules / Regulation / Notification / Order / Circular / Memo / Norms / Guidelines / Direction issued regarding the timeframe of issuing pension.</string>
     <string name="txt_oldage_q6">6. Specify the names and designation of the officers responsible for the non payment of my pension on time. Provide me the certified copy of conduct service rule / regulation having provision to take disciplinary action for non adherence to the timeframe.</string>
     <string name="txt_oldage_q7">7. Please provide details of First Appellate Authority u/s 7(8) of RTI Act, 2005 with detailed postal and email address.</string>
+	<string-array name="BD">
+	    <item>Details of Ration Card</item>
+	    <item>Status of withdrawal of my Employees Provident Fund (EPF) Account</item>
+	    <item>Status of pending work in any government department on my complaint</item>
+	    <item>Enquiry on MLA Constituency Development Funds</item>
+	    <item>Complete list of all streets and road works carried out</item>
+	    <item>Status of all corruption complaints from Central Vigilance Commission</item>
+	    <item>Details of Scholarships in a School / College</item>
+	    <item>Details of Old age/Widow pensions</item>
+	    <item>Custom Blank Template</item>
+	</string-array>
+	<string name="hint_period">2010 to 2013</string>
+	<string name="generate">Generate</string>
+	<string name="reset">Reset</string>
 </resources>
